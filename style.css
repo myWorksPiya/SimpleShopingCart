@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Muli");
+
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.main-header {
+    background: rgba(0, 0, 0, 0.2);
+    background-image: url("Images/welcomeImage.jpg");
+    height: 50vh;   
+}
+.main-header h1{
+    font-size: 50px;
+    text-align: right;
+    margin:0px 20px; 
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+    padding: 20px;
+    
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.cafeName-large{
+    font-size: 8em;
+}
+.sectionHeader{
+    text-align:center;
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    
+    font-size: 2.5em;
+}
+
+  
+
+.cafeName{
+    color:white;
+}
+.item {
+    margin: 30px;
+}
+
+.itemTitle {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+.itemImage{
+        width:250px;
+        height:250px;   
+}
+.itemDetails{
+    display:flex;
+    align-items:center;
+    padding:5px;
+}
+.itemPrice{
+    flex-grow:1;
+}
+.shop-items{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+
+}
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #a42ddb;
+}
+.cart{
+    margin:0 auto;
+}
+.cartHeader{
+    font-weight:bold;
+    font-size:1.25em;
+    color:#333;
+}
+.cart-col{
+    display:flex;
+    align-items:center;
+    border-bottom:1px solid black;
+    margin-right:1.5rem;
+    padding-bottom:10px;
+    margin-top:10px;
+}
+.cart-row{
+    display:flex;
+   
+}
+.cartItem
+{
+    flex-basis:45%;
+}
+.cartPrice
+{
+    flex-basis:20%;
+    font-size:1.2em;
+    color:#333;
+}
+.cartQuantity
+{
+    flex-basis:35%;
+}
+.cartItem-title{
+    color:#333;
+    margin-left:.5rem;
+    font-size:1.2em;
+}
+.cartItem-image{
+    width:75px;
+    height:75px;
+    border-radius:10px;;
+} 
+.btn-danger{
+    color:white;
+    background-color: #eb5858;
+    border:none;
+    border-radius:10px;
+    font-weight:bold;
+
+}
+.btn-danger:hover{
+    background-color: #cc4d4d;  
+}
+.cartQuantityInput{
+    height:34px;
+    width:40px;
+    border-radius: 5px;
+    border:1px solid #56ccf2;
+    background-color: #eee;
+    color:#333;
+    padding:0;
+    text-align: center;
+    font-size:1.2em;
+    margin-right: 25px;
+
+
+}
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-col{
+    border-bottom:none;
+
+}
+.cartTotal{
+   text-align: end; 
+   margin-top:10px;
+   margin-right:10px;
+}
+.cart-totalTitle{
+    font-weight: bold;
+    font-size: 1.5em;
+    color:#000;
+    margin-right:20px;
+}
+.cart-totalPrice{
+    color:#333;
+    font-size:1.1em;
+}
+.btn-purchase{
+    display:block;
+    margin: 40px auto 80px;
+    font-size:1.5em;
+    text-transform: uppercase;
+}
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+.cafe-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+
+
+
+
+
+
+
+ 
+
+
+ 

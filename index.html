@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cafe Shopping Cart</title>
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="cafeName-large">The Cafe</h1>
+    </header>
+    <section class="container sectionContent">
+        <h2 class="sectionHeader">CAKES</h2>
+        <div class="shop-items">
+            <div class="item">
+                <span class="itemTitle">Orange Cake</span>
+                <img src="images/orangeCake2.jpg" class="itemImage" alt="Orange Cake">
+                <div class="itemDetails">
+                    <span class="itemPrice">$50.99</span>
+                    <button role="button" class="btn btn-primary addtoCartbtn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="itemTitle">Coffee Cake</span>
+                <img src="images/coffeeCake.jpg" class="itemImage" alt="Coffee Cake">
+                <div class="itemDetails">
+                    <span class="itemPrice">$50.99</span>
+                    <button role="button" class="btn btn-primary addtoCartbtn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="itemTitle">BlackForest Cake</span>
+                <img src="images/blackForest1.jpg" class="itemImage" alt="BlackForest Cake">
+                <div class="itemDetails">
+                    <span class="itemPrice">$50.99</span>
+                    <button role="button" class="btn btn-primary addtoCartbtn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="item">
+                    <span class="itemTitle">Carrot Cake</span>
+                    <img src="images/carrotCake1.jpg" class="itemImage" alt="Carrot Cake">
+                <div class="itemDetails">
+                    <span class="itemPrice">$50.99</span>
+                    <button role="button" class="btn btn-primary addtoCartbtn">Add to Cart</button>
+                </div>
+            </div>
+       </div>
+        </section>
+        <section class="container sectionContent">
+           
+                <h2 class="sectionHeader">Doughnuts</h2>
+                <div class="shop-items">
+                <div class="item">
+                    <span class="itemTitle">Sugar Doughnut</span>
+                    <img src="images/sugarDoughnut.jpg" class="itemImage" alt="Orange Cake">
+                    <div class="itemDetails">
+                        <span class="itemPrice">$50.99</span>
+                        <button role="button" class="btn btn-primary addtoCartbtn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="item">   
+                    <span class="itemTitle">Traditional Doughnut</span>
+                    <img src="images/traditionaldoughnut.jpg"class="itemImage" alt="Orange Cake">
+                    <div class="itemDetails">
+                        <span class="itemPrice">$50.99</span>
+                        <button role="button" class="btn btn-primary addtoCartbtn">Add to Cart</button>
+                    </div>
+                </div>  
+        </div>
+    </section>
+   <section class="container sectionContent cart">
+    <h2 class="sectionHeader">CART</h2>
+       <div  class="cart-row">
+            <span class="cartItem cartHeader cart-col">ITEM</span>
+            <span class="cartPrice cartHeader cart-col">PRICE</span>
+            <span class="cartQuantity cartHeader cart-col">QUANTITY</span>
+        </div>
+        <div class="cartItems">
+            <div class="cart-row">
+                <div class="cartItem cart-col">
+                    <img src="images/carrotCake.jpg" class="cartItem-image"alt="carrotCake">
+                    <span class="cartItem-title">Carrot cake</span>
+                </div>
+                <span class="cartPrice  cart-col">$9.99</span>
+                <div class="cartQuantity cart-col">
+                    <input type="number" class="cartQuantityInput" value="1">
+                    <button role="button"class="btn-danger btn">Remove</button>
+                </div>
+            </div>
+            <div class="cart-row">
+                <div class="cartItem cart-col">
+                    <img src="images/sugarDoughnut.jpg"class="cartItem-image" alt="carrotCake">
+                    <span class="cartItem-title">Sugar Doughnut </span>
+                </div>
+                <span class="cartPrice cart-col">$9.99</span>
+                <div class="cartQuantity cart-col">
+                    <input type="number" class="cartQuantityInput" value="2">
+                    <button role="button" class="btn-danger btn">Remove</button>
+                </div>
+            </div>
+        </div>
+        <div class="cartTotal">
+            <span class="cart-totalTitle">Total</span>
+            <span class="cartTotalPrice">$50.00</span>
+        </div>
+        <button role="button" class="btn btn-primary btn-purchase">Buy Now</button>
+        
+   </section>
+   <footer class="main-footer">
+    <div class="container main-footer-container">
+        <h3 class="cafe-name">The Cafe</h3>
+        <ul class="nav footer-nav">
+            <li>
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="Images/YouTube Logo.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="Images/Facebook Logo.png">
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>
