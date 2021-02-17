@@ -15,7 +15,7 @@ html, body {
 
 .main-header {
     background: rgba(0, 0, 0, 0.2);
-    background-image: url("Images/welcomeImage.jpg");
+    background-image: url(images/welcomeImage.jpg);
     height: 50vh;   
 }
 .main-header h1{
@@ -205,7 +205,7 @@ html, body {
 }
 
 .main-footer {
-    background-color: #56CCF2;
+    background-color: #75728b;
     color: white;
     padding: .25em 0;
 }

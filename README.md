@@ -12,7 +12,7 @@ Online Shopping Activities like:
     **Deleting the item from the cart**
     **Quantity changing on update**
 
-    <a href="https://myworkspiya.github.io/SimpleShopingCart/">Live Demo Link</a>
+<a href="https://myworkspiya.github.io/SimpleShopingCart/">Link to Live Demo</a>
 
 
 
