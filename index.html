@@ -77,35 +77,13 @@
             <span class="cartPrice cartHeader cart-col">PRICE</span>
             <span class="cartQuantity cartHeader cart-col">QUANTITY</span>
         </div>
-        <div class="cartItems">
-            <div class="cart-row">
-                <div class="cartItem cart-col">
-                    <img src="images/carrotCake1.jpg" class="cartItem-image"alt="carrotCake">
-                    <span class="cartItem-title">Carrot cake</span>
-                </div>
-                <span class="cartPrice  cart-col">$9.99</span>
-                <div class="cartQuantity cart-col">
-                    <input type="number" class="cartQuantityInput" value="1">
-                    <button role="button"class="btn-danger btn">Remove</button>
-                </div>
-            </div>
-            <div class="cart-row">
-                <div class="cartItem cart-col">
-                    <img src="images/sugarDoughnut.jpg"class="cartItem-image" alt="carrotCake">
-                    <span class="cartItem-title">Sugar Doughnut </span>
-                </div>
-                <span class="cartPrice cart-col">$9.99</span>
-                <div class="cartQuantity cart-col">
-                    <input type="number" class="cartQuantityInput" value="2">
-                    <button role="button" class="btn-danger btn">Remove</button>
-                </div>
-            </div>
+        <div class="cartItems"></div>
         </div>
         <div class="cartTotal">
             <span class="cart-totalTitle">Total</span>
-            <span class="cartTotalPrice">$50.00</span>
+            <span class="cartTotalPrice" id="cartTotalPrice">$0</span>
         </div>
-        <button role="button" class="btn btn-primary btn-purchase">Buy Now</button>
+        <button role="button" class="btn btn-primary btn-purchase" id="btn-purchase">Buy Now</button>
         
    </section>
    <footer class="main-footer">
@@ -125,6 +103,6 @@
         </ul>
     </div>
 </footer>
-
+<script src="main.js"></script>
 </body>
 </html>
