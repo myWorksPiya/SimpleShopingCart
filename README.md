@@ -7,10 +7,10 @@ This is a simple project to learn the shopping cart activities.
 
 # Features Include:
 
-Online Shopping Activities like: 
-    **Adding an item to the cart**
-    **Deleting the item from the cart**
-    **Quantity changing on update**
+## Online Shopping Activities like: 
+- Adding an item to the cart
+- Deleting the item from the cart
+- Quantity changing on update
 
 <a href="https://myworkspiya.github.io/SimpleShopingCart/">Link to Live Demo</a>
 
